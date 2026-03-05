@@ -24,7 +24,7 @@
 3. Home - Subject - Back
 4. Home - Schudle - Back
 
-
+![profile](app/img/step7_navigation_working_Vahrush_2.png)
 ![home](app/img/step7_navigation_working_Vahrush_1.png)
 ![settings](app/img/step7_navigation_working_Vahrush_4.png)
 ![subject](app/img/step7_navigation_working_Vahrush_3.png)
