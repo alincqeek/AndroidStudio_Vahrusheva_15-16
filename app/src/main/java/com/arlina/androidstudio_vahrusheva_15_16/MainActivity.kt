@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
+import com.arlina.androidstudio_vahrusheva_15_16.navigation.StudentPlannerNavHost
 import com.arlina.androidstudio_vahrusheva_15_16.ui.theme.AndroidStudio_Vahrusheva_1516Theme
 
 class MainActivity : ComponentActivity() {
@@ -19,9 +21,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AndroidStudio_Vahrusheva_1516Theme {
+                val navController = rememberNavController()
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    StudentPlannerNavHost(
+                        navController = navController,
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
