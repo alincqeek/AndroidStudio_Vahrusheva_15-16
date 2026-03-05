@@ -83,6 +83,7 @@ fun HomeScreen(
     onSubjectClick: (String) -> Unit,
     onProfileClick: () -> Unit,
     onSettingsClick: () -> Unit,
+    onScheduleClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Scaffold(
@@ -100,6 +101,12 @@ fun HomeScreen(
                         Icon(
                             imageVector = Icons.Default.Settings,
                             contentDescription = "Настройки"
+                        )
+                    }
+                    IconButton(onClick = onScheduleClick) {
+                        Icon(
+                            imageVector = Icons.Default.DateRange,
+                            contentDescription = "Расписание"
                         )
                     }
                 }

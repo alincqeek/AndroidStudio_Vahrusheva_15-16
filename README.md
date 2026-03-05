@@ -9,6 +9,7 @@
 - Настройки
 - Профиль
 - о предмете
+- расписание
 
 ## Технологии
 - Kotlin
@@ -21,12 +22,14 @@
 1. Home - Details - Back
 2. Home - Profile - Back
 3. Home - Subject - Back
+4. Home - Schudle - Back
 
 
 ![home](app/img/step7_navigation_working_Vahrush_1.png)
 ![settings](app/img/step7_navigation_working_Vahrush_4.png)
 ![subject](app/img/step7_navigation_working_Vahrush_3.png)
-![profile](app/img/step7_navigation_working_Vahrush_2.png)
+![schudle](app/img/step7_navigation_working_Vahrush_5.png)
+![schudle](app/img/step7_navigation_working_Vahrush_6.png)
 
 
 ## Контрольные вопросы
